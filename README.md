@@ -15,4 +15,4 @@ The admin login uses hardcoded credentials (in this example, username: admin and
 Navigation & UI:
 The tabs (Login, Signup, and Admin) are switched using JavaScript functions. Once logged in, the container’s content is replaced with the appropriate homepage view.
 
-This login form only HTML, CSS, and JavaScript to simulate user registration, login, and an admin dashboard without any backend technology like PHP.
+This login form only use HTML, CSS, and JavaScript to simulate user registration, login, and an admin dashboard without any backend technology like PHP.
