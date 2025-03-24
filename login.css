@@ -1,0 +1,292 @@
+/* Global Reset & Base Styles */
+/* Remove default margin and padding and set box-sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the body element: set font, background, and center content vertically and horizontally */
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #2C3E50, #4CA1AF);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Default Container Styling */
+  /* Container for forms with white background, fixed width, padding, rounded corners, and shadow */
+  .container {
+    background: #ffffff;
+    width: 400px;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    animation: fadeIn 1s ease-out;
+    transition: all 0.5s ease;
+  }
+  
+  /* Full-Screen Mode */
+  /* When added, makes the container cover the entire viewport with modified styling */
+  .full-screen {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Fade-in Animation */
+  /* Animation for fading in elements from bottom to top */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* Tab Navigation Styles */
+  /* Style for the tab container holding the navigation buttons */
+  .tab {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #f1f1f1;
+  }
+  
+  /* Style for each tab button */
+  .tab button {
+    background: none;
+    border: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #555;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effect for tab buttons */
+  .tab button:hover {
+    color: #4CA1AF;
+  }
+  
+  /* Active tab styling */
+  .tab button.active {
+    color: #4CA1AF;
+    border-bottom: 3px solid #4CA1AF;
+  }
+  
+  /* Tab Content Animation */
+  /* Hide tab content by default and apply slide-in animation when shown */
+  .tabcontent {
+    display: none;
+    animation: slideIn 0.5s ease;
+  }
+  
+  /* Keyframes for slide-in animation from right to left */
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateX(20px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  
+  /* Heading style inside tab content */
+  .tabcontent h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form Styling */
+  /* Arrange form elements in a column layout */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style for input fields in forms */
+  form input {
+    margin: 12px 0;
+    padding: 14px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+  }
+  
+  /* Focus state for input fields */
+  form input:focus {
+    border-color: #4CA1AF;
+    outline: none;
+  }
+  
+  /* Style for form buttons */
+  form button {
+    margin-top: 20px;
+    padding: 14px;
+    background: #4CA1AF;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  /* Hover effect for form buttons */
+  form button:hover {
+    background: #3a8d94;
+    transform: scale(1.02);
+  }
+  
+  /* Admin Link Styling */
+  /* Center the admin link and set font properties */
+  .admin-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  /* Style for anchor links in admin-link */
+  .admin-link a {
+    color: #4CA1AF;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  /* Hover effect for admin-link anchor */
+  .admin-link a:hover {
+    color: #3a8d94;
+  }
+  
+  /* Welcome Screen Styling */
+  /* Style for the welcome screen that appears after login */
+  .welcome-screen {
+    text-align: center;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  /* Heading style for welcome screen */
+  .welcome-screen h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraph style for welcome screen */
+  .welcome-screen p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  /* Style for logout button on welcome screen */
+  .welcome-screen button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background: linear-gradient(45deg, #4CA1AF, #2C3E50);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  /* Hover effect for welcome screen button */
+  .welcome-screen button:hover {
+    background: linear-gradient(45deg, #2C3E50, #4CA1AF);
+    transform: scale(1.05);
+  }
+  
+  /* Admin Panel Styling */
+  /* Style for the admin dashboard panel */
+  .admin-panel {
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+  }
+  
+  /* Heading styles in the admin panel */
+  .admin-panel h2,
+  .admin-panel h3 {
+    margin-bottom: 20px;
+  }
+  
+  /* Table styling for listing registered users in the admin panel */
+  .admin-panel table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* Table cell styles */
+  .admin-panel table th,
+  .admin-panel table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Header cell style in table */
+  .admin-panel table th {
+    background: #f4f4f4;
+    font-weight: 600;
+  }
+  
+  /* Alternate row background for table */
+  .admin-panel table tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+  
+  /* Style for logout button in admin panel */
+  .admin-panel button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background: linear-gradient(45deg, #4CA1AF, #2C3E50);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  /* Hover effect for admin panel button */
+  .admin-panel button:hover {
+    background: linear-gradient(45deg, #2C3E50, #4CA1AF);
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Styles */
+  /* Adjust layout for smaller screens */
+  @media (max-width: 480px) {
+    .container {
+      width: 90%;
+      padding: 20px;
+    }
+    .tab button {
+      padding: 8px 15px;
+      font-size: 16px;
+    }
+    form input, form button {
+      padding: 12px;
+      font-size: 14px;
+    }
+    .tabcontent h2 {
+      font-size: 20px;
+    }
+  }
+  

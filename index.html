@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set character encoding to UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Set the title of the page -->
+    <title>Travel Login & Signup</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="login.css">
+    <!-- Import Google Font "Poppins" with specified weights -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Main container for the content -->
+    <div class="container">
+      <!-- Tab Navigation: Contains buttons for switching between login and signup forms -->
+      <div class="tab">
+        <!-- Button for Login tab; "active" class indicates the default selected tab -->
+        <button class="tablinks active" onclick="openTab(event, 'login')">Login</button>
+        <!-- Button for Signup tab -->
+        <button class="tablinks" onclick="openTab(event, 'signup')">Signup</button>
+      </div>
+      
+      <!-- Login Form Container -->
+      <div id="login" class="tabcontent" style="display: block;">
+        <!-- Title for Login form -->
+        <h2>Login</h2>
+        <!-- Form for user login -->
+        <form id="loginForm">
+          <!-- Input field for username -->
+          <input type="text" id="loginUsername" placeholder="Username" required>
+          <!-- Input field for password -->
+          <input type="password" id="loginPassword" placeholder="Password" required>
+          <!-- Submit button for login -->
+          <button type="submit">Login</button>
+        </form>
+        <!-- Link to open Admin Login view -->
+        <p class="admin-link">Are you an admin? <a href="#" onclick="openAdmin()">Admin Login</a></p>
+      </div>
+      
+      <!-- Signup Form Container -->
+      <div id="signup" class="tabcontent">
+        <!-- Title for Signup form -->
+        <h2>Signup</h2>
+        <!-- Form for new user registration -->
+        <form id="signupForm">
+          <!-- Input field for new username -->
+          <input type="text" id="signupUsername" placeholder="Username" required>
+          <!-- Input field for email address -->
+          <input type="email" id="signupEmail" placeholder="Email" required>
+          <!-- Input field for password -->
+          <input type="password" id="signupPassword" placeholder="Password" required>
+          <!-- Submit button for signup -->
+          <button type="submit">Signup</button>
+        </form>
+      </div>
+      
+      <!-- Admin Login Form Container -->
+      <div id="admin" class="tabcontent">
+        <!-- Title for Admin Login form -->
+        <h2>Admin Login</h2>
+        <!-- Form for admin login -->
+        <form id="adminForm">
+          <!-- Input field for admin username -->
+          <input type="text" id="adminUsername" placeholder="Admin Username" required>
+          <!-- Input field for admin password -->
+          <input type="password" id="adminPassword" placeholder="Admin Password" required>
+          <!-- Submit button for admin login -->
+          <button type="submit">Login as Admin</button>
+        </form>
+        <!-- Link to go back to the regular user login/signup view -->
+        <p class="admin-link"><a href="#" onclick="backToUser()">Back to User Login</a></p>
+      </div>
+    </div>
+    <!-- Link to external JavaScript file -->
+    <script src="login.js"></script>
+  </body>
+</html>
