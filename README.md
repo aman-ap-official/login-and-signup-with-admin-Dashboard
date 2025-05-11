@@ -21,7 +21,15 @@ This project simulates **user registration**, **login**, and an **admin dashboar
 ---
 
 ## 🎬 Video Demo
-    [Watch Video Preview](https://github.com/user-attachments/assets/dc14ab21-3f3e-4d1e-81bc-68961231ec9a)
+
+<p align="center">
+  <a href="https://github.com/user-attachments/assets/98de5908-e796-49ab-a61d-f546cd69a129">
+    <img src="https://img.youtube.com/vi/98de5908-e796-49ab-a61d-f546cd69a129/0.jpg" alt="Watch Video Demo" width="80%" />
+  </a>
+</p>
+
+> **Click on the video preview above to watch the full demo.**
+
 ---
 
 ## 🔧 How It Works
