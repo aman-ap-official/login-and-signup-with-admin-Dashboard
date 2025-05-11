@@ -1,9 +1,6 @@
 # 🌟 User Authentication System (Frontend Only) 🌟
 
 <p align="center">
-</p>
-
-<p align="center">
   <strong>A simple yet powerful authentication system built with HTML, CSS, and JavaScript.</strong>
 </p>
 
@@ -26,7 +23,11 @@ This project simulates **user registration**, **login**, and an **admin dashboar
 ## 🎬 Video Demo
 
 <p align="center">
-  https://github.com/user-attachments/assets/d23d3b0b-b817-439a-b222-9a49f5dc5079
+  <a href="https://github.com/user-attachments/assets/d23d3b0b-b817-439a-b222-9a49f5dc5079">
+    <video controls width="80%" alt="User Authentication Demo">
+      <source src="https://github.com/user-attachments/assets/d23d3b0b-b817-439a-b222-9a49f5dc5079" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </a>
 </p>
 
