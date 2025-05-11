@@ -26,7 +26,7 @@ This project simulates **user registration**, **login**, and an **admin dashboar
 ## 🎬 Video Demo
 
 <p align="center">
-  <a href="https://github.com/user-attachments/assets/d23d3b0b-b817-439a-b222-9a49f5dc5079">
+  https://github.com/user-attachments/assets/d23d3b0b-b817-439a-b222-9a49f5dc5079"
   </a>
 </p>
 
