@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/aman-ap-official" target="_blank">Visit my GitHub</a> • <a href="#installation">Installation</a> • <a href="https://github.com/aman-ap-official/login-and-signup-with-admin-Dashboard/blob/main/License">License</a>
+  <a href="https://github.com/aman-ap-official" target="_blank">Visit my GitHub</a> • <a href="https://github.com/aman-ap-official/login-and-signup-with-admin-Dashboard/blob/main/License">License</a>
 </p>
 
 ---
