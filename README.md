@@ -24,10 +24,7 @@ This project simulates **user registration**, **login**, and an **admin dashboar
 
 <p align="center">
   <a href="https://github.com/user-attachments/assets/d23d3b0b-b817-439a-b222-9a49f5dc5079">
-    <video controls width="80%" alt="User Authentication Demo">
-      <source src="https://github.com/user-attachments/assets/d23d3b0b-b817-439a-b222-9a49f5dc5079" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <img src="https://img.youtube.com/vi/d23d3b0b-b817-439a-b222-9a49f5dc5079/0.jpg" alt="User Authentication Demo" width="80%" />
   </a>
 </p>
 
