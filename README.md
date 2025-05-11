@@ -72,7 +72,7 @@ This project simulates **user registration**, **login**, and an **admin dashboar
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/aman-ap-official/user-authentication-system.git
-```
-   <p align="center">
+<p align="center">
   Made with ❤️ by <a href="https://github.com/aman-ap-official">Aman AP</a>
 </p>
+
