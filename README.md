@@ -1,7 +1,6 @@
 # 🌟 User Authentication System (Frontend Only) 🌟
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d23d3b0b-b817-439a-b222-9a49f5dc5079" alt="User Authentication Demo" width="100%" />
 </p>
 
 <p align="center">
@@ -28,7 +27,6 @@ This project simulates **user registration**, **login**, and an **admin dashboar
 
 <p align="center">
   <a href="https://github.com/user-attachments/assets/d23d3b0b-b817-439a-b222-9a49f5dc5079">
-    <img src="https://img.youtube.com/vi/d23d3b0b-b817-439a-b222-9a49f5dc5079/0.jpg" alt="Watch Demo" width="100%" />
   </a>
 </p>
 
